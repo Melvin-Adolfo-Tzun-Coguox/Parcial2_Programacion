@@ -181,9 +181,9 @@ public class frmPizza {
         }
 
         if (radiobtnbig.isSelected()){
-            total=total+(total*0.30);
+            total=total*(1.3);
         } else if (radiobtnmedium.isSelected()) {
-            total=total+(total*0.15);
+            total=total*(1.2);
         }
         lblTotal.setText(String.valueOf(total));
     }
