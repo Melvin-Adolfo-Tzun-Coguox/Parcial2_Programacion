@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="edu.formularios.frmPizza">
+  <grid id="27dc6" binding="jPanelPrincipal" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="712" height="534"/>
+    </constraints>
+    <properties>
+      <background color="-14789265"/>
+      <foreground color="-12845077"/>
+    </properties>
+    <border type="none" title="MENU PRINCIPAL" title-justification="2"/>
+    <children>
+      <component id="e346b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="198" height="17"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-5371"/>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="18" style="1"/>
+          <foreground color="-983553"/>
+          <text value="Ingredientes extra"/>
+        </properties>
+      </component>
+      <component id="f58e3" class="javax.swing.JLabel" binding="lblTotal">
+        <constraints>
+          <grid row="16" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="14" style="0"/>
+          <foreground color="-983553"/>
+          <text value="0.00"/>
+        </properties>
+      </component>
+      <component id="c8196" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="198" height="17"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="18" style="1"/>
+          <foreground color="-983553"/>
+          <text value="Ingredientes agregados, de doble clic sobre el que desee eliminar"/>
+        </properties>
+      </component>
+      <component id="36efc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="198" height="17"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="18" style="1"/>
+          <foreground color="-983553"/>
+          <text value="Tipo de Pizza"/>
+        </properties>
+      </component>
+      <component id="602d0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="198" height="17"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="18" style="1"/>
+          <foreground color="-983553"/>
+          <text value="Nombre de la Pizza"/>
+        </properties>
+      </component>
+      <component id="6bc2d" class="javax.swing.JTextField" binding="txtPizza">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Century Gothic" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="a3e2a" class="javax.swing.JComboBox" binding="comboBoxTipoPizza">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <model/>
+        </properties>
+      </component>
+      <component id="f4f79" class="javax.swing.JComboBox" binding="comboBoxToppings">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+        </properties>
+      </component>
+      <component id="ab4b5" class="javax.swing.JButton" binding="btnAddIngrediente">
+        <constraints>
+          <grid row="13" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-10972130"/>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="12" style="2"/>
+          <foreground color="-983553"/>
+          <text value="Agregar Ingrediente"/>
+        </properties>
+      </component>
+      <component id="7378f" class="javax.swing.JButton" binding="btbPrepararPizza">
+        <constraints>
+          <grid row="17" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0" ipadx="5" ipady="5"/>
+        </constraints>
+        <properties>
+          <background color="-12282850"/>
+          <font name="Century Gothic" size="12" style="2"/>
+          <foreground color="-983553"/>
+          <text value="Preparar pizza"/>
+        </properties>
+      </component>
+      <component id="9a428" class="javax.swing.JList" binding="lista1">
+        <constraints>
+          <grid row="15" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <minimumSize width="20" height="20"/>
+          <preferredSize width="0" height="80"/>
+        </properties>
+      </component>
+      <component id="3aac2" class="javax.swing.JList" binding="ListPrepare">
+        <constraints>
+          <grid row="18" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <foreground color="-16777216"/>
+          <minimumSize width="20" height="20"/>
+          <preferredSize width="0" height="80"/>
+        </properties>
+      </component>
+      <component id="267f5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="16" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="198" height="17"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="16" style="1"/>
+          <foreground color="-983553"/>
+          <text value="Total: "/>
+        </properties>
+      </component>
+      <component id="b6288" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="198" height="17"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-5371"/>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="18" style="1"/>
+          <foreground color="-983553"/>
+          <text value="Selecciona el tamaño"/>
+        </properties>
+      </component>
+      <component id="2d4a8" class="javax.swing.JRadioButton" binding="radiobtnbig">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-11440299"/>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="14" style="0"/>
+          <foreground color="-983553"/>
+          <text value="Grande"/>
+        </properties>
+      </component>
+      <component id="ba8cf" class="javax.swing.JRadioButton" binding="radiobtnmedium">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-11440299"/>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="14" style="0"/>
+          <foreground color="-983553"/>
+          <text value="Mediano"/>
+        </properties>
+      </component>
+      <component id="57d2f" class="javax.swing.JRadioButton" binding="radiobtnsmall">
+        <constraints>
+          <grid row="5" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-11440299"/>
+          <enabled value="true"/>
+          <font name="Century Gothic" size="14" style="0"/>
+          <foreground color="-983553"/>
+          <selected value="true"/>
+          <text value="Pequeño"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="size">
+      <member id="57d2f"/>
+      <member id="ba8cf"/>
+      <member id="2d4a8"/>
+    </group>
+  </buttonGroups>
+</form>
