@@ -20,12 +20,13 @@ public class frmPizza {
     private JButton btnAddIngrediente;
     private JLabel lblTotal;
     private JList lista1;
-    private JButton btbPrepararPizza;
-    private JComboBox comboBoxTipoPizza;
-    private JList ListPrepare;
     private JRadioButton radiobtnsmall;
     private JRadioButton radiobtnmedium;
     private JRadioButton radiobtnbig;
+    private JButton btbPrepararPizza;
+    private JComboBox comboBoxTipoPizza;
+    private JList ListPrepare;
+
 
     private List<Topping> ingredientes = new ArrayList<>();
 
@@ -206,7 +207,7 @@ public class frmPizza {
                 modeloLista.addElement(new Topping("Trozos de chorizo",10));
                 break;
             case "Napolitana" :
-                modeloLista.addElement(new Topping("Aceite cr olivo",10));
+                modeloLista.addElement(new Topping("Aceite de olivo",10));
                 break;
             case "5 carnes" :
                 modeloLista.addElement(new Topping("Champiñones",10));
